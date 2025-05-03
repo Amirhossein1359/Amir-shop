@@ -1,59 +1,75 @@
+
 <!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>فروشگاه آنلاین امیر</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Amir Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-    <!-- هدر سایت -->
     <header>
         <div class="logo">
-            <h1>فروشگاه آنلاین امیر</h1>
+            <h1>Amir Shop</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="#">خانه</a></li>
-                <li><a href="#">دسته بندی‌ها</a></li>
-                <li><a href="#">تماس با ما</a></li>
-                <li><a href="#">سبد خرید</a></li>
+                <li><a href="#mobiles">موبایل‌ها</a></li>
+                <li><a href="#headphones">هدفون‌ها</a></li>
+                <li><a href="#laptops">لپ‌تاپ‌ها</a></li>
             </ul>
         </nav>
     </header>
-
-    <!-- بخش محصولات -->
+    
     <main>
-        <h2>محصولات پرفروش</h2>
-        <section class="products">
+        <section id="mobiles">
+            <h2>موبایل‌ها</h2>
             <div class="product">
-                <img src="images/product1.jpg" alt="محصول 1">
-                <h3>گوشی موبایل سامسونگ</h3>
-                <p class="price">3,500,000 تومان</p>
-                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <img src="https://example.com/mobile1.jpg" alt="Mobile 1">
+                <p>موبایل 1</p>
+                <p>قیمت: 10,000,000 تومان</p>
             </div>
             <div class="product">
-                <img src="images/product2.jpg" alt="محصول 2">
-                <h3>هدفون بی‌سیم</h3>
-                <p class="price">1,200,000 تومان</p>
-                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <img src="https://example.com/mobile2.jpg" alt="Mobile 2">
+                <p>موبایل 2</p>
+                <p>قیمت: 15,000,000 تومان</p>
+            </div>
+        </section>
+        
+        <section id="headphones">
+            <h2>هدفون‌ها</h2>
+            <div class="product">
+                <img src="https://example.com/headphone1.jpg" alt="Headphone 1">
+                <p>هدفون 1</p>
+                <p>قیمت: 2,000,000 تومان</p>
             </div>
             <div class="product">
-                <img src="images/product3.jpg" alt="محصول 3">
-                <h3>لپ‌تاپ دل</h3>
-                <p class="price">7,000,000 تومان</p>
-                <button class="add-to-cart">افزودن به سبد خرید</button>
+                <img src="https://example.com/headphone2.jpg" alt="Headphone 2">
+                <p>هدفون 2</p>
+                <p>قیمت: 3,000,000 تومان</p>
+            </div>
+        </section>
+        
+        <section id="laptops">
+            <h2>لپ‌تاپ‌ها</h2>
+            <div class="product">
+                <img src="https://example.com/laptop1.jpg" alt="Laptop 1">
+                <p>لپ‌تاپ 1</p>
+                <p>قیمت: 20,000,000 تومان</p>
+            </div>
+            <div class="product">
+                <img src="https://example.com/laptop2.jpg" alt="Laptop 2">
+                <p>لپ‌تاپ 2</p>
+                <p>قیمت: 25,000,000 تومان</p>
             </div>
         </section>
     </main>
 
-    <!-- فوتر سایت -->
     <footer>
-        <p>تمامی حقوق محفوظ است &copy; 2025 فروشگاه آنلاین امیر</p>
         <p>پشتیبانی: 09361231433</p>
+        <p>به نام امیرحسین</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
